@@ -5,11 +5,11 @@ const Navbar = () => {
 
     const links =
         <>
-            <li><a>Home</a></li>
-            <li><a>About Me</a></li>
-            <li><a>Skills</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Contact</a></li>
+            <li><a href='#banner'>Home</a></li>
+            <li><a href='#about'>About Me</a></li>
+            <li><a href='#skills'>Skills</a></li>
+            <li><a href='#project'>Projects</a></li>
+            <li><a href='#contact'>Contact</a></li>
         </>
     return (
         <div className='fixed z-10 w-full bg-[#335064] bg-opacity-40'>

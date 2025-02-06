@@ -31,7 +31,7 @@ const Contact = () => {
 
 
     return (
-        <div className='max-w-screen-xl w-[94%] mx-auto my-20'>
+        <div id='contact' className='max-w-screen-xl w-[94%] mx-auto my-20'>
             <div className='grid md:grid-cols-2 gap-5 border border-white rounded-md p-6 about-me'>
 
 
@@ -53,8 +53,6 @@ const Contact = () => {
                     </div>
 
                 </div>
-
-
 
                 <div>
                     <form ref={form} onSubmit={sendEmail}>

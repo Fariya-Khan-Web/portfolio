@@ -9,13 +9,14 @@ import { VscVscode } from 'react-icons/vsc';
 
 const Skills = () => {
     return (
-        <div className='my-20 md:my-44 text-[#3a586d] max-w-screen-xl w-[94%] mx-auto '>
+        <div id='skills' className='pt-32  text-[#3a586d] max-w-screen-xl w-[94%] mx-auto '>
             <h1 className='text-5xl'>What I Bring to the Table</h1>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 my-16'>
+            <p className='md:w-1/2 mt-4'>In the last 8 months, I have gained a significant amount of knowledge and confidence in these technologies</p>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 mt-16'>
 
                 <div className='bg-blur border border-white rounded-md dropdown-content p-4 py-8'>
                     <h4 className='text-3xl text-center '>Frontend</h4>
-                    <div className='grid grid-cols-5 mt-8'>
+                    <div className='grid grid-cols-3 md:grid-cols-5 gap-2 mt-8'>
                         <div className='text-center'>
                             <FaHtml5 className='text-5xl md:text-6xl mx-auto' />
                             <p>HTML</p>
@@ -43,7 +44,7 @@ const Skills = () => {
 
                 <div className='bg-blur border border-white rounded-md dropdown-content p-4 py-8'>
                     <h4 className='text-3xl text-center '>Backend</h4>
-                    <div className='grid grid-cols-5 mt-8'>
+                    <div className='grid grid-cols-3 md:grid-cols-5 gap-2 mt-8'>
                         <div className='text-center'>
                             <SiExpress className='text-5xl md:text-6xl mx-auto' />
                             <p>ExpressJS</p>
@@ -71,7 +72,7 @@ const Skills = () => {
 
                 <div className='bg-blur border border-white rounded-md dropdown-content p-4 py-8 '>
                     <h4 className='text-3xl text-center '>Tech & Tools</h4>
-                    <div className='grid grid-cols-5 mt-8'>
+                    <div className='grid grid-cols-3 md:grid-cols-5 gap-2 mt-8'>
                         <div className='text-center'>
                             <VscVscode className='text-5xl md:text-6xl mx-auto' />
                             <p>VS code</p>
