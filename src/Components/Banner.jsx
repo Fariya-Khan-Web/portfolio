@@ -21,7 +21,7 @@ const Banner = () => {
                     
                     <div className='flex gap-2 my-3'>
                         <button className='btn px-3 p-2 border text-transparent bg-[#fdf3dd] text-[#335064] rounded-md'>View Resume</button>
-                        <button className='btn bg-transparent text-[#fdf3dd] px-3 p-2 border flex gap-2 items-center rounded-md'>Download<FaCloudDownloadAlt /></button>
+                        <button className='btn bg-blur bg-transparent text-[#fdf3dd] px-3 p-2 border flex gap-2 items-center rounded-md'>Download<FaCloudDownloadAlt /></button>
                     </div>
                 </div>
 

@@ -12,7 +12,7 @@ const Navbar = () => {
             <li><a>Contact</a></li>
         </>
     return (
-        <div className='fixed w-full bg-[#335064] bg-opacity-30'>
+        <div className='fixed z-10 w-full bg-[#335064] bg-opacity-30'>
             <div className="navbar md:max-w-[88%] mx-auto ">
                 
                 <div className="navbar-start">
@@ -48,7 +48,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 -ml-[156px] p-2 shadow">
+                            className="bg-blur menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 -ml-[156px] p-2 shadow">
                             {links}
                         </ul>
                     </div>
