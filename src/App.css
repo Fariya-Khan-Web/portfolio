@@ -14,7 +14,7 @@
 .dropdown-content{
   background-image: linear-gradient(140deg,
           rgba(79, 118, 145, 0.3),
-          rgba(255, 242, 200, 0.7));
+          rgba(255, 242, 200, 0.3));
 }
 .about-me{
   background-image: linear-gradient(140deg,

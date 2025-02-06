@@ -19,7 +19,7 @@ const Navbar = () => {
 
                     <div className='flex items-center'>
                         <img className='w-10 h-10' src={logo} alt="" />
-                        <a className="font-bold text-2xl md:text-3xl">Sana</a>
+                        <a className="text-2xl md:text-3xl">Sana</a>
                     </div>
                 </div>
                 
