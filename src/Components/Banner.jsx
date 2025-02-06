@@ -6,7 +6,7 @@ import { FaCloudDownloadAlt } from 'react-icons/fa';
 const Banner = () => {
     return (
         <div className='banner min-h-[100vh]' >
-            <div className='max-w-screen-xl w-[94%] mx-auto min-h-screen grid md:grid-cols-2 gap-20 items-center'>
+            <div className='max-w-screen-2xl w-[94%] mx-auto min-h-screen grid md:grid-cols-2 gap-20 items-center'>
 
                 {/* small device picture */}
                 <div className='md:hidden picture rounded-full w-[260px] h-[350px] mx-auto  bg-[#fdf3dd]/15 p-2 border-2 border-[#fdf3dd]'>
