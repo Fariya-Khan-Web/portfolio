@@ -13,9 +13,25 @@ const Navbar = () => {
         </>
     return (
         <div className='fixed w-full bg-[#335064] bg-opacity-30'>
-            <div className="navbar max-w-[88%] mx-auto ">
+            <div className="navbar md:max-w-[88%] mx-auto ">
+                
                 <div className="navbar-start">
-                    <div className="dropdown">
+
+                    <div className='flex items-center'>
+                        <img className='w-10 h-10' src={logo} alt="" />
+                        <a className="font-bold text-2xl md:text-3xl">Sana</a>
+                    </div>
+                </div>
+                
+                <div className='navbar-end'>
+                    <div className="hidden lg:flex">
+                        <ul className="menu menu-horizontal px-1">
+                            {links}
+                        </ul>
+
+                    </div>
+
+                    <div className="dropdown  align-self-end">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -32,19 +48,10 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 -ml-[156px] p-2 shadow">
                             {links}
                         </ul>
                     </div>
-                    <div className='flex items-center'>
-                        <img className='w-10 h-10' src={logo} alt="" />
-                        <a className="font-bold text-3xl">Sana</a>
-                    </div>
-                </div>
-                <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        {links}
-                    </ul>
                 </div>
 
             </div>

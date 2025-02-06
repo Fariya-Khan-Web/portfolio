@@ -7,57 +7,10 @@
   background-image: url('./assets/banner2.jpg');
   background-size: cover;
 }
-/* .picture{
-  background-image: url('./assets/banner-picture.jpeg');
-  background-size: cover;
-  opacity: '0';
-} */
-
-
-/* 
-.heading span {
-  position: relative;
-  display: inline-block;
+.dropdown-content{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  background-image: linear-gradient(140deg,
+          rgba(148, 196, 255, 0.2),
+          rgba(255, 242, 200, 0.3));
 }
-
-.heading span::before {
-  content: "Fariya Khan.";
-  animation: words 6s infinite;
-}
-
-.heading span::after {
-  content: "";
-  position: absolute;
-  width: calc(100% + 8px);
-  height: 100%;
-  
-  border-left: 2px solid #fdf3dd;
-  right: -8px;
-  animation: typing 3s steps(12) infinite, cursor 1s infinite;
-}
-
-
-@keyframes cursor {
-  50% {
-    border-left-color: transparent;
-  }
-}
-
-
-@keyframes words {
-  0%, 50% {
-    content: 'Fariya Khan.';
-  }
-  51%, 100% {
-    content: "Sana.";
-  }
-}
-
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-} */
