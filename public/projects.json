@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "MovieGO",
+      "image": "https://i.ibb.co.com/QmDxtLj/Screenshot-2025-01-09-191617.png",
+      "detailsPage": "/projects/eco-adventure",
+      "techStack": ["React", "Tailwind CSS", "Firebase", "MongoDB"],
+      "description": "A sleek and dynamic movie review platform where users can add, rate, and explore movies by genre, release year, and ratings. Built with React and styled using Tailwind CSS, it features interactive star ratings, user-friendly forms, and real-time updates for an engaging cinematic experience.",
+      "liveLink": "https://moviego-15b7e.web.app/",
+      "githubRepo": "https://github.com/Fariya-Khan-Web/MovieGo",
+      "challenges": "Handling too many different type of data and ensuring smooth form validation with React Hook Form.",
+      "futurePlans": "Adding user reviews, AI-powered recommendations, and expanding the experience catalog."
+    },
+    {
+      "id": 2,
+      "name": "NanoTasks",
+      "image": "https://i.ibb.co.com/Rk1qQSbG/Screenshot-2025-02-02-174335.png",
+      "detailsPage": "/projects/movie-review",
+      "techStack": ["React", "React Hook Form", "Tailwind CSS", "Firebase"],
+      "description": "Nanotasks is a micro-tasking and earning platform designed to help users complete small tasks and earn rewards efficiently. This platform streamlines the task assignment and payment process, ensuring a seamless experience for both workers and employers.",
+      "liveLink": "https://nanotasks-b6e3b.web.app/",
+      "githubRepo": "https://github.com/Fariya-Khan-Web/NanoTasks",
+      "challenges": "Handling too many routes. Hoasting images in imagebb . Implementing a secure and efficient payment system while ensuring user task verification.",
+      "futurePlans": "Implementing AI-based movie recommendations and integrating a watchlist feature."
+    },
+    {
+      "id": 3,
+      "name": "Eco-Adventure",
+      "image": "https://i.ibb.co.com/SDbBY9rQ/Screenshot-2025-01-09-173012.png",
+      "detailsPage": "/projects/micro-tasking",
+      "techStack": ["React", "MongoDB", "Express", "Firebase"],
+      "description": "This website is designed to provide a seamless and immersive platform for exploring eco-friendly adventure experiences. It aims to connect nature enthusiasts with a diverse range of thrilling activities, such as mountain treks, wildlife safaris, ocean dives, and forest expeditions. With a focus on sustainability and community engagement, the website offers users the ability to discover and book adventures that align with their interests while promoting environmentally responsible travel.",
+      "liveLink": "https://eco-adventure-68056.web.app/",
+      "githubRepo": "https://github.com/Fariya-Khan-Web/eco-adventure",
+      "challenges": "Implementing firebase authentication for the first time, updating user details",
+      "futurePlans": "Introducing AI-matching for personalized tasks and integrating cryptocurrency payments."
+    },
+    {
+      "id": 4,
+      "name": "Gadget Heaven ",
+      "image": "https://i.ibb.co.com/CmnVp8P/Screenshot-2025-01-09-195403.png",
+      "detailsPage": "/projects/food-donation",
+      "techStack": ["React", "Tailwind CSS"],
+      "description": "Gadget Heaven is e-commerce website that allows user to add and remove gadgets form cart and wishlist",
+      "liveLink": "https://chubby-lace.surge.sh/",
+      "githubRepo": "https://github.com/Fariya-Khan-Web/Gadget-Heaven",
+      "challenges": "Handling too many routes. Creating a beautiful banner. Showing active category in category navbar",
+      "futurePlans": "Implementing AI for food surplus predictions and expanding NGO partnerships."
+    }
+  ]
+  

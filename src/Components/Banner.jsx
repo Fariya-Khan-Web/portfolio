@@ -20,7 +20,7 @@ const Banner = () => {
                     <p className='text-sm md:text-base my-4'>I am a passionate web developer dedicated to crafting intuitive, responsive, and visually stunning websites. With a strong focus on clean code, user experience, and modern design, I bring ideas to life through creativity and technology.</p>
                     
                     <div className='flex gap-2 my-3'>
-                        <button className='btn px-3 p-2 border text-transparent bg-[#fdf3dd] text-[#335064] rounded-md'>View Resume</button>
+                        <button className='btn px-3 p-2 border bg-[#fdf3dd] text-[#335064] rounded-md'>View Resume</button>
                         <button className='btn bg-blur bg-transparent text-[#fdf3dd] px-3 p-2 border flex gap-2 items-center rounded-md'>Download<FaCloudDownloadAlt /></button>
                     </div>
                 </div>

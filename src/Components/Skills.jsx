@@ -14,7 +14,7 @@ const Skills = () => {
             <p className='md:w-1/2 mt-4'>In the last 8 months, I have gained a significant amount of knowledge and confidence in these technologies</p>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 mt-16'>
 
-                <div className='bg-blur border border-white rounded-md dropdown-content p-4 py-8'>
+                <div className='bg-blur border border-white rounded-md dropdown-content bg-light p-4 py-8'>
                     <h4 className='text-3xl text-center '>Frontend</h4>
                     <div className='grid grid-cols-3 md:grid-cols-5 gap-2 mt-8'>
                         <div className='text-center'>
@@ -42,7 +42,7 @@ const Skills = () => {
 
                 </div>
 
-                <div className='bg-blur border border-white rounded-md dropdown-content p-4 py-8'>
+                <div className='bg-blur border border-white rounded-md dropdown-content bg-light p-4 py-8'>
                     <h4 className='text-3xl text-center '>Backend</h4>
                     <div className='grid grid-cols-3 md:grid-cols-5 gap-2 mt-8'>
                         <div className='text-center'>
@@ -70,7 +70,7 @@ const Skills = () => {
 
                 </div>
 
-                <div className='bg-blur border border-white rounded-md dropdown-content p-4 py-8 '>
+                <div className='bg-blur border border-white rounded-md dropdown-content bg-light p-4 py-8 '>
                     <h4 className='text-3xl text-center '>Tech & Tools</h4>
                     <div className='grid grid-cols-3 md:grid-cols-5 gap-2 mt-8'>
                         <div className='text-center'>

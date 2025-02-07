@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { FaFacebookSquare, FaGithub, FaLinkedinIn, FaPhoneAlt } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { MdOutlineMail } from 'react-icons/md';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -21,10 +22,38 @@ const Contact = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: "top-end",
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                          toast.onmouseenter = Swal.stopTimer;
+                          toast.onmouseleave = Swal.resumeTimer;
+                        }
+                      });
+                      Toast.fire({
+                        icon: "success",
+                        title: "Email sent successfully"
+                      });
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: "top-end",
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                          toast.onmouseenter = Swal.stopTimer;
+                          toast.onmouseleave = Swal.resumeTimer;
+                        }
+                      });
+                      Toast.fire({
+                        icon: "error",
+                        title: "Something went wrong. Try again later"
+                      });
                 },
             );
     };
