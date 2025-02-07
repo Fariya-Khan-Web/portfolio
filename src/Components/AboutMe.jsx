@@ -1,9 +1,12 @@
 import React from 'react';
 import me from '../assets/aboutMe.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const AboutMe = () => {
     return (
-        <div id='about' className='max-w-screen-xl w-[94%] mx-auto pt-20 md:pt-32'>
+        <div id='about' data-aos="fade-up" className='max-w-screen-xl w-[94%] mx-auto pt-20 md:pt-32 '>
             <div className='bg-blur about-me md:flex md: gap-4 lg:gap-6  p-5 bg-[#587183]  rounded-lg'>
                 
                 <div>

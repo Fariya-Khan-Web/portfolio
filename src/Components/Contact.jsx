@@ -4,6 +4,9 @@ import { FaFacebookSquare, FaGithub, FaLinkedinIn, FaPhoneAlt } from 'react-icon
 import { FaXTwitter } from 'react-icons/fa6';
 import { MdOutlineMail } from 'react-icons/md';
 import Swal from 'sweetalert2';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Contact = () => {
 
@@ -60,8 +63,8 @@ const Contact = () => {
 
 
     return (
-        <div id='contact' className='max-w-screen-xl w-[94%] mx-auto my-20'>
-            <div className='grid md:grid-cols-2 gap-5 border border-white rounded-md p-6 about-me'>
+        <div id='contact' data-aos="fade-up" className='max-w-screen-xl w-[94%] mx-auto my-20 mb36'>
+            <div  className='grid md:grid-cols-2 gap-5 border border-white rounded-md p-6 about-me '>
 
 
                 <div className='my-auto'>

@@ -3,6 +3,9 @@ import { Link, useParams } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { FaGithub, FaGithubAlt } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Details = () => {
     const { id } = useParams();
@@ -42,7 +45,7 @@ const Details = () => {
         <div className='min-h-screen'>
             <Navbar />
 
-            <div className='max-w-screen-xl mx-auto py-10'>
+            <div className='max-w-screen-xl mx-auto py-10 '  data-aos="zoom-out">
                 <div className='about-me border border-[#9ca4aa] p-10 rounded-md my-20 text[#3a586d]'>
 
                     <h1 className='text-4xl font-bold mb-4'>{project.name}</h1>

@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -21,7 +24,7 @@ const Projects = () => {
 
             <div className='grid md:grid-cols-2 gap-6'>
                 {projects?.map(project => (
-                    <div key={project.id} className='rounded-lg border bg-light border-white p-3 grid grid-cols-2 gap-3'>
+                    <div key={project.id} data-aos={project.id%2===0? "fade-left":  "fade-right"} className='rounded-lg border bg-light border-white p-3 grid grid-cols-2 gap-3'>
                         <img className='rounded-md h-full w-full object-cover border' src={project.image} alt={project.name} />
                         <div>
                             <h3 className='text-3xl font-semibold'>{project.name}</h3>
