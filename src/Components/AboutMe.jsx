@@ -7,7 +7,7 @@ AOS.init();
 const AboutMe = () => {
     return (
         <div id='about' data-aos="fade-up" className='max-w-screen-xl w-[94%] mx-auto pt-20 md:pt-32 '>
-            <div className='bg-blur about-me md:flex md: gap-4 lg:gap-6  p-5 bg-[#587183]  rounded-lg'>
+            <div className='bg-blur about-me md:flex md: gap-4 lg:gap-6  p-5 rounded-lg'>
                 
                 <div>
                     <img className=' w-full md:h-full rounded-md ' src={me} alt="" />

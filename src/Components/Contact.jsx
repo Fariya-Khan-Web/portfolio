@@ -32,14 +32,14 @@ const Contact = () => {
                         timer: 3000,
                         timerProgressBar: true,
                         didOpen: (toast) => {
-                          toast.onmouseenter = Swal.stopTimer;
-                          toast.onmouseleave = Swal.resumeTimer;
+                            toast.onmouseenter = Swal.stopTimer;
+                            toast.onmouseleave = Swal.resumeTimer;
                         }
-                      });
-                      Toast.fire({
+                    });
+                    Toast.fire({
                         icon: "success",
                         title: "Email sent successfully"
-                      });
+                    });
                 },
                 (error) => {
                     const Toast = Swal.mixin({
@@ -49,14 +49,14 @@ const Contact = () => {
                         timer: 3000,
                         timerProgressBar: true,
                         didOpen: (toast) => {
-                          toast.onmouseenter = Swal.stopTimer;
-                          toast.onmouseleave = Swal.resumeTimer;
+                            toast.onmouseenter = Swal.stopTimer;
+                            toast.onmouseleave = Swal.resumeTimer;
                         }
-                      });
-                      Toast.fire({
+                    });
+                    Toast.fire({
                         icon: "error",
                         title: "Something went wrong. Try again later"
-                      });
+                    });
                 },
             );
     };
@@ -64,7 +64,7 @@ const Contact = () => {
 
     return (
         <div id='contact' data-aos="fade-up" className='max-w-screen-xl w-[94%] mx-auto my-20 mb36'>
-            <div  className='grid md:grid-cols-2 gap-5 border border-white rounded-md p-6 about-me '>
+            <div className='grid md:grid-cols-2 gap-5 border border-white rounded-md p-6 about-me '>
 
 
                 <div className='my-auto'>
@@ -78,10 +78,21 @@ const Contact = () => {
                     <p className='underline mt-8'>My Social Links-</p>
 
                     <div className='flex gap-3 my-4'>
-                        <FaFacebookSquare className='text-3xl' />
+                        <a href="https://www.facebook.com/fariyakhansana">
+                            <FaFacebookSquare className='text-3xl' />
+                        </a>
+                        <a href="https://www.linkedin.com/in/fariya-khan-sana/">
                         <FaLinkedinIn className='text-3xl' />
+
+                        </a>
+                        <a href="https://x.com/Fariya_Khan_">
                         <FaXTwitter className='text-3xl' />
+
+                        </a>
+                        <a href="https://github.com/Fariya-Khan-Web">
+
                         <FaGithub className='text-3xl' />
+                        </a>
                     </div>
 
                 </div>
@@ -90,19 +101,19 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <label>Your Name</label><br />
-                            <input type="text" name="user_name" className='input input-bordered border-[#fdf3dd] bg-transparent w-full' placeholder='Your Name' required/><br />
+                            <input type="text" name="user_name" className='input input-bordered border-[#fdf3dd] bg-transparent w-full' placeholder='Your Name' required /><br />
 
                         </div>
 
                         <div className='my-2'>
                             <label>Your Email</label><br />
-                            <input type="email" name="user_email" className='input input-bordered border-[#fdf3dd] bg-transparent w-full' placeholder='Your Name' required/><br />
+                            <input type="email" name="user_email" className='input input-bordered border-[#fdf3dd] bg-transparent w-full' placeholder='Your Name' required /><br />
 
                         </div>
 
                         <div>
                             <label>Your Message</label><br />
-                            <textarea name="message" className='textarea textarea-bordered border-[#fdf3dd] bg-transparent w-full' placeholder='Your Name' required/><br />
+                            <textarea name="message" className='textarea textarea-bordered border-[#fdf3dd] bg-transparent w-full' placeholder='Your Name' required /><br />
 
                         </div>
                         <input className='btn font-normal border bg-[#fdf3dd] rounded-md  w-full py-1 text-[#3a586d] my-2' type="submit" value="Send Email" />

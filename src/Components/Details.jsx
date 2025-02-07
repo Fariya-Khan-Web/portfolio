@@ -45,7 +45,7 @@ const Details = () => {
         <div className='min-h-screen'>
             <Navbar />
 
-            <div className='max-w-screen-xl mx-auto py-10 '  data-aos="zoom-out">
+            <div className='max-w-screen-xl mx-auto py-10 w-[94%]'  data-aos="zoom-out">
                 <div className='about-me border border-[#9ca4aa] p-10 rounded-md my-20 text[#3a586d]'>
 
                     <h1 className='text-4xl font-bold mb-4'>{project.name}</h1>
@@ -72,7 +72,7 @@ const Details = () => {
                     <h3 className='text-xl md:text-2xl underline'>Potential improvements</h3>
                     <p className='text-lg '>{project.futurePlans}</p>
 
-                    <Link to={'/'} className='btn  btn-sm font-medium bg-blur text-[#fdf3dd] px-3 p-2 border rounded-md mt-6'>Go Back</Link>
+                    <Link to={'/'} className='btn  btn-sm font-medium bg-blur bg-transparent text-[#fdf3dd] px-3 p-2 border rounded-md mt-6'>Go Back</Link>
 
                 </div>
             </div>
