@@ -46,7 +46,7 @@ const Details = () => {
             <Navbar />
 
             <div className='max-w-screen-xl mx-auto py-10 w-[94%]'  data-aos="zoom-out">
-                <div className='about-me border border-[#9ca4aa] p-10 rounded-md my-20 text[#3a586d]'>
+                <div className='about-me border border-[#9ca4aa] p-5 md:p-8 lg:p-10 rounded-md my-20 text[#3a586d]'>
 
                     <h1 className='text-4xl font-bold mb-4'>{project.name}</h1>
                     <img className='w-full rounded-lg mb-5' src={project.image} alt={project.name} />
@@ -61,9 +61,9 @@ const Details = () => {
                         </a>
                     </div>
 
-                    <div className='mt-6'>
-                        <span className='text-xl md:text-2xl underline'>Tech & Tools-</span>
-                        <span className='text-xl md:text-lg mt-6'>{project.techStack.map(tool => <span className='ml-4'>{tool}</span>)}</span>
+                    <div className='mt-6 flex'>
+                        <div className='text-xl md:text-2xl underline min-w-fit'>Tech & Tools-</div>
+                        <div className='text-md md:text-lg flex flex-wrap'>{project.techStack.map(tool => <div className='ml-4'>{tool} |</div>)}</div>
                     </div>
 
 

@@ -63,7 +63,7 @@ const Contact = () => {
 
 
     return (
-        <div id='contact' data-aos="fade-up" className='max-w-screen-xl w-[94%] mx-auto my-20 mb36'>
+        <div id='contact' data-aos="fade-up" className='max-w-screen-xl w-[94%] mx-auto my-20 mb:my-36'>
             <div className='grid md:grid-cols-2 gap-5 border border-white rounded-md p-6 about-me '>
 
 

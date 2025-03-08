@@ -13,7 +13,7 @@ import { VscVscode } from 'react-icons/vsc';
 const Skills = () => {
     return (
         <div id='skills' className='pt-32  text-[#3a586d] max-w-screen-xl w-[94%] mx-auto '>
-            <h1 className='text-5xl'>What I Bring to the Table</h1>
+            <h1 className='text-4xl md:text-5xl'>What I Bring to the Table</h1>
             <p className='md:w-1/2 mt-4'>In the last 8 months, I have gained a significant amount of knowledge and confidence in these technologies</p>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 mt-16'>
 
